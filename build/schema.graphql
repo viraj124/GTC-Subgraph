@@ -1,0 +1,4 @@
+type Delegate @entity {
+  id: ID!
+  delegators: [Bytes!]!
+}
